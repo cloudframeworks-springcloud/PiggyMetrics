@@ -9,7 +9,7 @@
       <id>rainbond-mirror</id>
       <mirrorOf>*</mirrorOf>
       <name>rainbond-mirror</name>
-      <url>http://maven.goodrain.me/artifactory/libs-release</url>
+      <url>http://maven.goodrain.me/</url>
     </mirror>
 </mirrors>
 
