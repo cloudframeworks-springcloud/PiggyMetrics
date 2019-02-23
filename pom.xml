@@ -7,7 +7,14 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>piggymetrics</name>
-
+        <dependencyManagement>
+		<dependencies>
+		    <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		    </dependency>
+		</dependencies>
+        </dependencyManagement>
 	<modules>
 		<module>config</module>
 		<module>monitoring</module>
